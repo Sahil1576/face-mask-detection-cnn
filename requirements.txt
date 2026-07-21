@@ -11,3 +11,5 @@ streamlit-webrtc
 av
 albumentations
 jupyter
+kagglehub
+gdown
