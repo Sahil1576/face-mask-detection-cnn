@@ -3,6 +3,8 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 import pickle
+import gdown
+import os
 
 # ----------------------------
 # Page Config
@@ -16,9 +18,16 @@ st.set_page_config(
 # ----------------------------
 # Load Model
 # ----------------------------
+MODEL_PATH = "face_mask_detection_model.keras"
+if not os.path.exists(MODEL_PATH):
+    gdown.download(
+        id="1f4vOnEwaRo-u_13DKxxyR8uFEvFezBo2",
+        output=MODEL_PATH,
+        quiet=False
+    )
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("face_mask_detection_model.keras")
+    return tf.keras.models.load_model(MODEL_PATH)
 
 model = load_model()
 
