@@ -14,14 +14,14 @@ https://your-streamlit-app-link.streamlit.app/
 ## 📂 Dataset
 
 Dataset Source:  
-https://your-dataset-link
+https://www.kaggle.com/datasets/prithwirajmitra/covid-face-mask-detection-dataset
 
 ---
 
 ## 🧠 Trained Model
 
 Keras Model (.keras):  
-https://your-model-link
+https://drive.google.com/file/d/1f4vOnEwaRo-u_13DKxxyR8uFEvFezBo2/view?usp=drive_link
 
 ---
 
