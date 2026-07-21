@@ -1,0 +1,13 @@
+streamlit
+tensorflow
+keras
+numpy
+pandas
+opencv-python-headless
+pillow
+matplotlib
+scikit-learn
+streamlit-webrtc
+av
+albumentations
+jupyter
