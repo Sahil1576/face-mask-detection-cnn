@@ -7,7 +7,7 @@ A deep learning project that detects whether a person is wearing a face mask usi
 ## 🚀 Live Demo
 
 🔗 **Streamlit App:**  
-https://your-streamlit-app-link.streamlit.app/
+https://face-mask-detection-cnn-3tqnmrktltyop4jiszrhnz.streamlit.app/
 
 ---
 
